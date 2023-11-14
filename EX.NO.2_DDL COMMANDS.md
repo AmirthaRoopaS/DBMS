@@ -24,49 +24,44 @@ To create a student database and execute DDL queries using SQL.
 ### 1) Create a database studentdb
 
 ### SQL QUERY:
-
+Create database studentdb;
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/08c3c5dc-a15a-4bb2-8c1d-f6f1f793f09a)
 
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY: 
-
-
+create table student(rollno int,name char(20),age int,address varchar(20),phoneno int);
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/02eb4ec9-6e8e-4ce5-bc3a-5e5604b94d21)
 
 ### 3) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+alter table student add department char(30);
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/f7b01715-5a56-4d6a-8842-c8faa405b594)
 
 ### 4) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
-
-
+drop table student;
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/710b7334-2068-49f2-9a5c-6e6f25e81d45)
 
 ### 5) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
-
-
+truncate table student;
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/2f77b2c7-86c9-470b-bacc-2381429cbb5e)
+
 ### 4) Drop the mystudent table
  
 ### SQL QUERY: 
-
-
+alter table student rename to mystudent;
 ### OUTPUT:
-
-
-
-
-
-
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/093f435d-9b44-47c1-b464-c8bd98bdc0ca)
 
 ## Result:
          Thus the basic DDL commands in SQL are executed. 
