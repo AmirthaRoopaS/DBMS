@@ -13,13 +13,51 @@
 5. Specify attributes unique, multivalued and composite attributes.
 
 ### ER Diagram 
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/3f24efd4-4d3b-4424-974d-a169c3c3bd31)
 
 ### Relational model
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/a744f6d4-285c-4885-b93c-1be02daa2039)
 
 ### SQL DDL Schema 
+CREATE TABLE BANK
+(
+  Code INT NOT NULL,
+  Name INT NOT NULL,
+  Addr INT NOT NULL,
+  PRIMARY KEY (Code)
+);
 
+CREATE TABLE BANK_BRANCH
+(
+  Branch_no INT NOT NULL,
+  Addr INT NOT NULL,
+  PRIMARY KEY (Branch_no)
+);
+
+CREATE TABLE LOAN
+(
+  Loan_no INT NOT NULL,
+  Amount INT NOT NULL,
+  Type INT NOT NULL,
+  PRIMARY KEY (Loan_no)
+);
+
+CREATE TABLE CUSTOMER
+(
+  Phone INT NOT NULL,
+  Ssn INT NOT NULL,
+  Name INT NOT NULL,
+  Addr INT NOT NULL,
+  PRIMARY KEY (Ssn)
+);
+
+CREATE TABLE ACCOUNT
+(
+  Acct_no INT NOT NULL,
+  Balance INT NOT NULL,
+  Type INT NOT NULL,
+  PRIMARY KEY (Acct_no)
+);
 ## RESULT 
 <div align="justify">
 Thus the ER diagram was drawn and relational diagram, SQL DDL staements are generated using ERD plus tool.
