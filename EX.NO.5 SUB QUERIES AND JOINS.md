@@ -70,45 +70,50 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/08e67028-81b4-482e-a012-c24e9f1b2084)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/92627e53-f1e7-4245-aeb7-efe9fa49e960)
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/fe2c8e79-d89c-4684-a490-b6dc4f97a4eb)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/0126e861-d256-4796-bed6-4c969f7679d1)
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/53746628-5434-475f-babe-f4e95281d84e)
 
 ### OUTPUT:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/504e5669-85d5-4572-a9ee-4f6b1b14d1cb)
 
 ### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/05f55d71-015f-429f-8da0-340ae1e3eaa2)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/c2549e8e-6041-4796-a4e6-4311398327c9)
 
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/c93861ec-f4e8-4d97-8747-4bcee67af5aa)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/2aab52be-5ce6-4194-b337-f3b96422f132)
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/c03b1ccc-ff77-46b0-a9ef-2906a5813181)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/8d4765d2-9f9e-4106-9d8c-50fdd7b7a4b0)
 
 ## Create a Customer1 Table
 ```sql
@@ -141,31 +146,35 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/d112b644-1241-4f95-92b5-d21ec854500c)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/4bed249f-1a6c-4072-a5fb-79b46488dbfb)
 
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/dbbe0871-0db3-4a7a-b2f7-6a2c0f4b467d)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/001135e6-74f7-46fb-8f57-e27d86e2e2c2)
 
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/99ea172c-fd2d-4519-b088-71337499d520)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/af5902b4-11b8-4373-8458-637c487cc154)
 
 ### Q10) Perform Left and right join on both tables
 
 ### QUERY:
-
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/61c000f0-476c-4661-b34b-aca727cb4305)
 
 ### OUTPUT:
+![image](https://github.com/DrUmaRaniV/DBMS/assets/143496311/13ad8db2-dc1b-474f-997d-89d2abf9feb2)
 
 ## RESULT 
 ### Thus the basics of subqueries,views,joins are performed in SQL.
